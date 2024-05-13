@@ -23,10 +23,10 @@
                 <option value='Detention'>Detention</option>
                 <option value='Sending a student to the principal's office'>Sending a student to the principal's office</option>
                 <option value='Reprimand'>Reprimand</option>
-                <option value='Warnings'>Warnings</option>
-                <option value='Suspensions'>Suspensions</option>
+                <option value='Warning'>Warnings</option>
+                <option value='Suspension'>Suspensions</option>
                 <option value='Interim suspension'>Interim suspension</option>
-                <option value='Expulsions'>Expulsions</option>
+                <option value='Expulsion'>Expulsions</option>
             </select><br><br>
             <label>Intervention Programs:</label><br>
             <select name='intervention_program' required>

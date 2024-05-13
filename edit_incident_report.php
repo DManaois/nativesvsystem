@@ -43,10 +43,10 @@
                     <option value='Detention' <?php if ($incident["level_of_violation"] == "Detention") echo "selected"; ?>>Detention</option>
                     <option value='Sending a student to the principal's office' <?php if ($incident["level_of_violation"] == "Sending a student to the principal's office") echo "selected"; ?>>Sending a student to the principal's office</option>
                     <option value='Reprimand' <?php if ($incident["level_of_violation"] == "Reprimand") echo "selected"; ?>>Reprimand</option>
-                    <option value='Warnings' <?php if ($incident["level_of_violation"] == "Warnings") echo "selected"; ?>>Warnings</option>
-                    <option value='Suspensions' <?php if ($incident["level_of_violation"] == "Suspensions") echo "selected"; ?>>Suspensions</option>
+                    <option value='Warning' <?php if ($incident["level_of_violation"] == "Warnings") echo "selected"; ?>>Warnings</option>
+                    <option value='Suspension' <?php if ($incident["level_of_violation"] == "Suspensions") echo "selected"; ?>>Suspensions</option>
                     <option value='Interim suspension' <?php if ($incident["level_of_violation"] == "Interim suspension") echo "selected"; ?>>Interim suspension</option>
-                    <option value='Expulsions' <?php if ($incident["level_of_violation"] == "Expulsions") echo "selected"; ?>>Expulsions</option>
+                    <option value='Expulsion' <?php if ($incident["level_of_violation"] == "Expulsions") echo "selected"; ?>>Expulsions</option>
                 </select><br><br>
                 <label>Type of Violation:</label><br>
                 <select name='violation_type_id' required>
