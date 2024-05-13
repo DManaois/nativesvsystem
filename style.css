@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+    color: #79747E;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #165786;
+}
+
+label {
+    color: #165786;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: #165786;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #79747E;
+}
+
+a {
+    color: #165786;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
